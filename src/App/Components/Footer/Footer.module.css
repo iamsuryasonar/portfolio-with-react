@@ -1,0 +1,34 @@
+.footer_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7a86b6;
+    width: 100%;
+    height: 25vh;
+    padding: 1.4rem auto;
+}
+
+.contact_icons {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.iconcontact {
+    margin: 0 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 1.4rem;
+    color: white;
+    cursor: pointer;
+    margin: 1rem 1rem;
+}
+
+.icon:hover {
+    font-size: 1.6rem;
+}
