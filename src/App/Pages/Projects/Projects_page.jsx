@@ -23,7 +23,7 @@ function ProjectsPage() {
                                         </div>)
                                     })}
                                 </div>
-                                <a href="project.url" className={s.projecttitle}>
+                                <a target='_blank' rel='noopener noreferrer' href={project.source_code} className={s.projecttitle}>
                                     {project.title}
                                 </a>
                                 <p className={s['build-with']}>
