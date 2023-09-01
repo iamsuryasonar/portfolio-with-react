@@ -5,8 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function ProjectsPage() {
     return (
-        <><div className={s.main}>
-            <div className={s.wrapper}>
+        <div className={s.wrapper}>
                 <h1>Projects</h1>
                 <div className={s.project_grid}>
                     {projects.map((project) => {
@@ -35,11 +34,9 @@ function ProjectsPage() {
                             </div>
                         );
                     })}
-                </div>
             </div >
         </div >
-            <Footer> </Footer>
-        </>
+           
     )
 }
 

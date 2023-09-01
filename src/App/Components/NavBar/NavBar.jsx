@@ -12,36 +12,36 @@ function NavBar() {
     return (
         <>
             <nav id={s.navbar}>
-                <div className={s['nav-wrapper']}>
-                    <div className={s.namediv}>
-                        <Link to="/">
-                            <p className={s.name}>{text.name}</p>
-                        </Link>
-                    </div>
+                {/* <div className={s['nav-wrapper']}> */}
+                <div className={s.namediv}>
+                    <Link to="/">
+                        <p className={s.name}>{text.name}</p>
+                    </Link>
+                </div>
 
-                    <div className={s['about-project-contact']}>
-                        <Link to="/">
-                            <p className={s.about}>About Me</p>
-                        </Link>
-                        <Link to="/projects">
-                            <p className={s.projects}>Projects</p>
-                        </Link>
-                        <Link to="/skills">
-                            <p className={s.skills}>Skills</p>
-                        </Link>
-                        <Link to="/links">
-                            <p className={s.links}>Links</p>
-                        </Link>
-                    </div>
-                    <div className={s.menuiconwrapper} onClick={menuHandler}>
-                        {!menu ? <div className={s.barsicon}>
-                            <FontAwesomeIcon className={s.menuopenbutton} icon='fas fa-bars' />
-                        </div> : null}
-                        {menu ? <div className={s.barsicon}>
-                            <FontAwesomeIcon className={s.menuclosebutton} icon='fas fa-times' />
-                        </div> : null}
-                    </div>
-                </div >
+                <div className={s['about-project-contact']}>
+                    <Link to="/">
+                        <p className={s.about}>About Me</p>
+                    </Link>
+                    <Link to="/projects">
+                        <p className={s.projects}>Projects</p>
+                    </Link>
+                    <Link to="/skills">
+                        <p className={s.skills}>Skills</p>
+                    </Link>
+                    <Link to="/links">
+                        <p className={s.links}>Links</p>
+                    </Link>
+                </div>
+                <div className={s.menuiconwrapper} onClick={menuHandler}>
+                    {!menu ? <div className={s.barsicon}>
+                        <FontAwesomeIcon className={s.menuopenbutton} icon='fas fa-bars' />
+                    </div> : null}
+                    {menu ? <div className={s.barsicon}>
+                        <FontAwesomeIcon className={s.menuclosebutton} icon='fas fa-times' />
+                    </div> : null}
+                </div>
+                {/* </div > */}
             </nav >
             {menu ?
                 <div className={s.menuoverlay}>

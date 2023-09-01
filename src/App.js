@@ -4,6 +4,7 @@ import Projects from './App/Pages/Projects/Projects_page'
 import Links from './App/Pages/Links/Links_page'
 import Skills from './App/Pages/Skills/Skills_page'
 import NavBar from './App/Components/NavBar/NavBar'
+import Footer from './App/Components/Footer/Footer'
 
 
 function Container() {
@@ -11,6 +12,7 @@ function Container() {
     <>
       <NavBar />
       <Outlet />
+      <Footer />
     </>
   )
 }

@@ -1,30 +1,33 @@
-#navbar {
-    background-color: #7a86b6;
-    position: fixed;
-    width: 100%;
-    z-index: 222;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#navbar .nav-wrapper {
-    height: 8vh;
-    width: auto;
+#navbar {
+    background-color: #7a86b6;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 2;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem 2rem;
+    padding: 0 22px;
 }
 
 #navbar p {
     cursor: pointer;
-    font-size: 1.4rem;
+    font-size: 22px;
     font-weight: 300;
     color: #ffffff;
 }
 
 #navbar .name {
     font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
+    font-size: 32px;
     color: #ffffff;
 }
 
@@ -44,8 +47,9 @@
 .menuclosebutton,
 .menuopenbutton {
     cursor: pointer;
-    font-size: 2.4rem;
+    font-size: 32px;
     color: #ffffff;
+    margin-right: 10px;
 }
 
 .menuclosebutton:hover,
@@ -58,7 +62,7 @@
     height: 350px;
     width: 100vw;
     background-color: #7a86b6;
-    z-index: 99;
+    z-index: 3;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,10 +75,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.menucontents {
-    margin-top: 8vh;
 }
 
 .menucontents a,
@@ -90,34 +90,34 @@
 
 .menucontents p {
     cursor: pointer;
-    margin: 1rem auto;
+    margin: 14px auto;
     text-align: center;
 }
 
 .menucontents p:hover {
-    font-size: 1.5rem;
+    font-size: 24px;
     border-bottom: 2px solid #e4e403;
 }
 
 .menucontents,
 .icon {
-    font-size: 1.4rem;
+    font-size: 22px;
     color: white;
 }
 
 .icon {
     cursor: pointer;
-    margin: 1rem 1rem;
+    margin: 18px 18px;
 }
 
 .icon:hover {
-    font-size: 2rem;
+    font-size: 26px;
 }
 
 /* <----------------------------------------------------> */
 .about-project-contact {
     width: 40%;
-    margin-right: 3rem;
+    margin-right: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -152,12 +152,12 @@
     }
 
     #navbar .name {
-        font-size: 1.6rem;
+        font-size: 30px;
     }
 
     #menuopenbutton,
     #menuclosebutton {
-        font-size: 1.4rem;
+        font-size: 30px;
     }
 
     .about-project-contact {

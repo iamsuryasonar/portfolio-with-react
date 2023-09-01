@@ -8,7 +8,7 @@ import text from '../../Data/text'
 
 function HomePage() {
     return (
-        <><div className={s.main}>
+        <div className={s.main}>
             <div className={s.intro}>
                 <p>{text.greeting}</p>
                 <p>{text.introduction}</p>
@@ -29,8 +29,6 @@ function HomePage() {
                 <p>{text.about_me}</p>
             </div>
         </div >
-            <Footer> </Footer>
-        </>
     )
 }
 

@@ -4,7 +4,6 @@ import social_media from '../../Data/social_media'
 
 function Footer() {
     return (
-        <>
             <div className={s.footer_main}>
                 <p>Made with ReactJS</p>
                 <p>Surya Sonar</p>
@@ -19,7 +18,6 @@ function Footer() {
                     })}
                 </div >
             </div >
-        </>
     )
 }
 export default Footer;
