@@ -15,7 +15,7 @@ function NavBar() {
                 <div className={s['nav-wrapper']}>
                     <div className={s.namediv}>
                         <a href="/">
-                            <p onClick={menuHandler} className={s.name}>{text.name}</p>
+                            <p className={s.name}>{text.name}</p>
                         </a>
                     </div>
 
