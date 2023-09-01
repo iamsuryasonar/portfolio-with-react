@@ -13,7 +13,7 @@ function ProjectsPage() {
                         console.log(project)
                         return (
                             <div className={s.project_card} key={project.id}>
-                                <a href="project.source_code" className={s.anchor}>
+                                <a target='_blank' rel='noopener noreferrer' href={project.url} className={s.anchor}>
                                     <img className={s.projectimages} src={project.image} alt="" />
                                 </a>
                                 <div className={s.projecticons}>
