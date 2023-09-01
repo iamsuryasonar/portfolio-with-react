@@ -81,7 +81,7 @@ const projects = [
         ],
         id: "portfolio",
         image: portfolio,
-        source_code: "https://github.com/iamsuryasonar/personalportfolio.git",
+        source_code: "https://github.com/iamsuryasonar/portfolio-with-react.git",
         build_info: "Built with NodeJs, HTML, CSS, VueJs.",
         title: "Portfolio",
         url: "https://iamsuryasonar.netlify.app",

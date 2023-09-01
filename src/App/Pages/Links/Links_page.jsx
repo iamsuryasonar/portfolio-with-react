@@ -1,6 +1,9 @@
 import s from './Links_page.module.css'
 import Footer from '../../Components/Footer/Footer.jsx'
 import links from '../../Data/links'
+import { Link } from 'react-router-dom'
+import social_media from '../../Data/social_media'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function LinkPage() {
     return (
@@ -8,15 +11,13 @@ function LinkPage() {
             <div className={s.wrapper}>
                 <h1>Links</h1>
                 <div className={s['contact-icons']}>
-                    <a className={s.iconcontact} href="linkedin">
-                        <i className="fab fa-linkedin"></i>
-                    </a>
-                    <a className={s.iconcontact} href="instagram">
-                        <i className="fab fa-instagram"></i>
-                    </a>
-                    <a className={s.iconcontact} href="github">
-                        <i className="fab fa-github"></i>
-                    </a>
+                    {social_media.map((data) => {
+                        return (
+                            <a target='_blank' rel='noopener noreferrer' href={data.url} key={data.id}>
+                                <FontAwesomeIcon className={s.icon} icon={data.icon} />
+                            </a>
+                        )
+                    })}
                 </div >
                 {links.map((link) => {
                     return (

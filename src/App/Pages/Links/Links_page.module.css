@@ -28,17 +28,16 @@ body {
     min-height: 90vh;
 }
 
-.contact-icons {
-    font-size: 2rem;
-    margin-top: 3vh;
-    display: flex;
-    flex-direction: row;
-}
-
-.contact-icons i {
-    margin: 0 1rem;
+.icon {
+    font-size: 1.4rem;
     color: white;
     cursor: pointer;
+    margin: 1rem 1rem;
+}
+
+
+.icon:hover {
+    font-size: 1.5rem;
 }
 
 .link_cards {
