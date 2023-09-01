@@ -71,6 +71,11 @@ body {
     color: #ffd68d;
 }
 
+.description {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 @media screen and (max-width: 1400px) {
     .project_grid {
         width: 80%;
