@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import s from './NavBar.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import social_media from '../../Data/social_media'
+import text from '../../Data/text'
 
 function NavBar() {
     const [menu, setMenu] = useState(false);
@@ -13,7 +15,7 @@ function NavBar() {
                 <div className={s['nav-wrapper']}>
                     <div className={s.namediv}>
                         <a href="/">
-                            <p onClick={menuHandler} className={s.name}>Surya Sonar</p>
+                            <p onClick={menuHandler} className={s.name}>{text.name}</p>
                         </a>
                     </div>
 
@@ -57,15 +59,13 @@ function NavBar() {
                             </a >
                         </div >
                         <div className={s.menusocialicons}>
-                            <a href="linkedin">
-                                <FontAwesomeIcon className={s.icon} onClick={menuHandler} icon='fab fa-linkedin' />
-                            </a>
-                            <a href="instagram" >
-                                <FontAwesomeIcon className={s.icon} onClick={menuHandler} icon='fab fa-instagram' />
-                            </a >
-                            <a href="github" >
-                                <FontAwesomeIcon className={s.icon} onClick={menuHandler} icon='fab fa-github' />
-                            </a >
+                            {social_media.map((data) => {
+                                return (
+                                    <a target='_blank' rel='noopener noreferrer' href={data.url} key={data.id}>
+                                        <FontAwesomeIcon className={s.icon} onClick={menuHandler} icon={data.icon} />
+                                    </a>
+                                )
+                            })}
                         </div >
                     </div >
                 </div > : null

@@ -1,6 +1,7 @@
 import s from './Skills_page.module.css'
 import Footer from '../../Components/Footer/Footer'
 import skills from '../../Data/skills'
+import text from '../../Data/text'
 
 function SkillsPage() {
     return (
@@ -8,8 +9,7 @@ function SkillsPage() {
             <div className={s.wrapper}>
                 <h1>Skills</h1>
                 <p>
-                    These are some languages,frameworks and tools that I have experience
-                    with.
+                    {text.skills_intro}
                 </p>
                 <div className={s.skill_grid}>
                     <ul className={s.skill_card}>

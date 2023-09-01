@@ -73,6 +73,7 @@ a {
     .link_cards {
         width: 60%;
     }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -82,5 +83,9 @@ a {
 
     .link_cards {
         width: 90%;
+    }
+
+    .link_cards:hover {
+        width: 91%;
     }
 }
