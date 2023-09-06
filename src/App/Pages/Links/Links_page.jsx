@@ -21,7 +21,8 @@ function LinkPage() {
             {links.map((link) => {
                 return (
                     <div className={s.link_cards}>
-                        <a
+                        <a target='_blank'
+                            rel='noopener noreferrer'
                             href={link.url}
                             className={s.link_card}
                             key={link.id}
