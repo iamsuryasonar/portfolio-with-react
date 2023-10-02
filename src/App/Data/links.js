@@ -7,7 +7,7 @@ const links = [
     {
         id: "resume",
         title: "My Resume - updated on 6-Sept-2023",
-        url: "https://drive.google.com/file/d/1gwo-3v5LXDzqS2KIduY4aJqc0JwHwqPx/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1zo2Jqj3roOG24mp1aHodE_1UWf2nGIln/view?usp=sharing",
     },
     {
         id: "freecodecampbackendcertification",
