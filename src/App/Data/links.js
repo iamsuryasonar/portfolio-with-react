@@ -1,8 +1,8 @@
 const links = [
     {
-        id: "URLshare",
-        title: "URLshare - a link sharing platform",
-        url: "https://urlshare.netlify.app",
+        id: "UNIURL",
+        title: "UNIURL - a link sharing platform",
+        url: "https://uniurl.netlify.app",
     },
     {
         id: "resume",

@@ -20,15 +20,15 @@ const projects = [
                 icon: "fab fa-css3-alt",
             },
         ],
-        id: "URLshare",
+        id: "UNIURL",
         image: urlshare,
         source_code: "https://github.com/iamsuryasonar/URLshare.git",
         build_info:
             "Built with NodeJs, Firebase Database, VueJs, Vue Router, Vuex and CSS",
-        title: "URLshare",
-        url: "https://urlshare.netlify.app",
+        title: "UNIURL",
+        url: "https://uniurl.netlify.app",
         description:
-            "URLshare is a URL sharing platform, which enables users to share all of their URL's with a single URL. For example 'www.urlshare.com/username'.",
+            "UNIURL is a URL sharing platform, which enables users to share all of their URL's with a single URL. For example 'www.uniurl.com/username'.",
     },
     {
         id: "cryptorank",
