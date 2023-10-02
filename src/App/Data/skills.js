@@ -22,6 +22,10 @@ const skills = [
         image: git,
     },
     {
+        id: "github",
+        image: github,
+    },
+    {
         id: "figma",
         image: figma,
     },
@@ -36,10 +40,6 @@ const skills = [
     {
         id: "android",
         image: android,
-    },
-    {
-        id: "github",
-        image: github,
     },
     {
         id: "nodejs",
