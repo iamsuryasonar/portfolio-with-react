@@ -11,7 +11,7 @@ const projects = [
                 icon: "fab fa-js",
             },
             {
-                icon: "fab fa-vuejs",
+                icon: "fab fa-react",
             },
             {
                 icon: "fab fa-node-js",
@@ -24,7 +24,7 @@ const projects = [
         image: urlshare,
         source_code: "https://github.com/iamsuryasonar/URLshare.git",
         build_info:
-            "Built with NodeJs, Firebase Database, VueJs, Vue Router, Vuex and CSS",
+            "Built with NodeJs, MongoDb, React, Redux and CSS",
         title: "UNIURL",
         url: "https://uniurl.netlify.app",
         description:
@@ -70,7 +70,7 @@ const projects = [
                 icon: "fab fa-js",
             },
             {
-                icon: "fab fa-vuejs",
+                icon: "fab fa-react",
             },
             {
                 icon: "fab fa-css3-alt",
@@ -82,7 +82,7 @@ const projects = [
         id: "portfolio",
         image: portfolio,
         source_code: "https://github.com/iamsuryasonar/portfolio-with-react.git",
-        build_info: "Built with NodeJs, HTML, CSS, VueJs.",
+        build_info: "Built with NodeJs, HTML, CSS, React.",
         title: "Portfolio",
         url: "https://iamsuryasonar.netlify.app",
         description:
