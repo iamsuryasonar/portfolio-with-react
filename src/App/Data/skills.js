@@ -13,6 +13,8 @@ import java from "../assets/dev_icons/java.svg";
 import html5 from "../assets/dev_icons/html5.svg";
 import vuejs from "../assets/dev_icons/vuejs.svg";
 import vscode from "../assets/dev_icons/vscode.svg";
+import tailwind from "../assets/dev_icons/tailwind.svg";
+import redux from "../assets/dev_icons/redux.svg";
 
 const skills = [
     {
@@ -20,61 +22,70 @@ const skills = [
         image: git,
     },
     {
-        id: "android",
-        image: android,
-    },
-    {
-        id: "flutter",
-        image: flutter,
-    },
-    {
-        id: "firebase",
-        image: firebase,
-    },
-    {
-        id: "javascript",
-        image: javascript,
-    },
-    {
-        id: "java",
-        image: java,
-    },
-    {
-        id: "nodejs",
-        image: nodejs,
+        id: "figma",
+        image: figma,
     },
     {
         id: "vscode",
         image: vscode,
     },
     {
-        id: "vuejs",
-        image: vuejs,
+        id: "java",
+        image: java,
     },
     {
-        id: "html5",
-        image: html5,
+        id: "android",
+        image: android,
     },
     {
         id: "github",
         image: github,
     },
     {
-        id: "css3",
-        image: css3,
+        id: "nodejs",
+        image: nodejs,
+    },
+    {
+        id: "firebase",
+        image: firebase,
     },
     {
         id: "dart",
         image: dart,
     },
     {
-        id: "figma",
-        image: figma,
+        id: "flutter",
+        image: flutter,
+    },
+    {
+        id: "html5",
+        image: html5,
+    },
+    {
+        id: "css3",
+        image: css3,
+    },
+    {
+        id: 'tailwind',
+        image: tailwind,
+    },
+    {
+        id: "javascript",
+        image: javascript,
+    },
+    {
+        id: "vuejs",
+        image: vuejs,
     },
     {
         id: "react",
         image: react,
     },
+    {
+        id: 'redux',
+        image: redux,
+    },
+
 ]
 
 export default skills;
